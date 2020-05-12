@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="0.0dip" card_view:layout_constraintBottom_toTopOf="@id/footer" card_view:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.AppCompatTextView android:gravity="center" android:id="@id/tv_title" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="43.0dip" android:layout_marginTop="71.0dip" android:layout_marginRight="43.0dip" android:text="@string/app_permission_fully_setup" android:textAllCaps="true" card_view:layout_constraintLeft_toLeftOf="parent" card_view:layout_constraintRight_toRightOf="parent" card_view:layout_constraintTop_toTopOf="parent" style="@style/OnboardingTitle" />
+        <androidx.appcompat.widget.AppCompatTextView android:gravity="center" android:id="@id/tv_desc" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/app_permission_fully_setup_desc" card_view:layout_constraintLeft_toLeftOf="parent" card_view:layout_constraintRight_toRightOf="parent" card_view:layout_constraintTop_toBottomOf="@id/tv_title" style="@style/OnboardingDesc" />
+        <ImageView android:id="@id/on_boarding_banner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:layout_marginBottom="12.0dip" android:src="@drawable/ic_registration_success_illustration" card_view:layout_constraintBottom_toBottomOf="parent" card_view:layout_constraintLeft_toLeftOf="parent" card_view:layout_constraintRight_toRightOf="parent" style="@style/OnboardingImage" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:id="@id/footer" android:layout_width="fill_parent" android:layout_height="wrap_content" card_view:layout_constraintBottom_toBottomOf="parent">
+        <include layout="@layout/button_and_progress" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

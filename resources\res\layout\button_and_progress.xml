@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/onboardingButton" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" style="@style/CustomButton">
+        <TextView android:id="@+id/onboardingButtonText" android:text="@string/next_button" style="@style/CustomButtonText"/>
+        <ImageView android:id="@+id/onboardingButtonIcon" android:src="@drawable/ic_arrow_forward_white" style="@style/CustomButtonIcon"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

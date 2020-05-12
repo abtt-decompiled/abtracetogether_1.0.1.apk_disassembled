@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ca.albertahealthservices.contacttracing.view.CustomViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintTop_toTopOf="parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <com.google.android.material.tabs.TabLayout android:id="@id/tabDots" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="parent" app:layout_constraintTop_toBottomOf="@id/pager" app:layout_constraintVertical_weight="1.0" app:tabBackground="@drawable/tab_selector" app:tabGravity="center" app:tabIndicatorHeight="0.0dip" app:tabMode="fixed" />
+    <FrameLayout android:id="@id/onboardingActivityLoadingProgressBarFrame" android:background="#ff000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true" android:alpha="0.5">
+        <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleLarge" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

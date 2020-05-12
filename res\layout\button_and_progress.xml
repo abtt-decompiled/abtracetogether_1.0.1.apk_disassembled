@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/onboardingButton" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" style="@style/CustomButton">
+        <TextView android:id="@id/onboardingButtonText" android:text="@string/next_button" style="@style/CustomButtonText" />
+        <ImageView android:id="@id/onboardingButtonIcon" android:src="@drawable/ic_arrow_forward_white" style="@style/CustomButtonIcon" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

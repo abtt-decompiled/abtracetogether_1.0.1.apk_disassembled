@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center_vertical" android:background="@color/primary_purple" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:id="@+id/center" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0" app:layout_constraintVertical_chainStyle="0" app:layout_constraintVertical_weight="5">
+        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.15"/>
+        <ImageView android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/ic_ab_trace_together" android:layout_weight="0.7" app:layout_constraintTop_toTopOf="@+id/center"/>
+        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.15"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginBottom="64dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/on_boarding_gov_logo" android:layout_width="127.5dp" android:layout_height="36dp" android:scaleType="fitCenter" android:adjustViewBounds="true" app:srcCompat="@drawable/ic_government_of_alberta_logo_light"/>
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:gravity="center" android:id="@+id/tv_desc_sub" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/tv_onboarding_desc_sub" style="@style/OnboardingSubDesc"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

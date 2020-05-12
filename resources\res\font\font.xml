@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <font android:font="@font/helvetica_neue" android:fontWeight="400" android:fontStyle="0"/>
+    <font android:font="@font/helvetica_neue_bold" android:fontWeight="600" android:fontStyle="0"/>
+    <font android:font="@font/helvetica_neue_bold" android:fontWeight="600" android:fontStyle="1"/>
+    <font android:font="@font/helvetica_neue_condensed_black" android:fontWeight="900" android:fontStyle="1"/>
+    <font android:font="@font/helvetica_neue_italic" android:fontWeight="400" android:fontStyle="1"/>
+    <font android:font="@font/helvetica_neue_light" android:fontWeight="300" android:fontStyle="0"/>
+    <font android:font="@font/helvetica_neue_light_italic" android:fontWeight="300" android:fontStyle="1"/>
+    <font android:font="@font/helvetica_neue_medium" android:fontWeight="500" android:fontStyle="0"/>
+    <font android:font="@font/helvetica_neue_medium_italic" android:fontWeight="500" android:fontStyle="1"/>
+    <font android:font="@font/helvetica_neue_thin" android:fontWeight="200" android:fontStyle="0"/>
+    <font android:font="@font/helvetica_neue_thin_italic" android:fontWeight="200" android:fontStyle="1"/>
+    <font android:font="@font/helvetica_neue_ultra_light" android:fontWeight="100" android:fontStyle="0"/>
+    <font android:font="@font/helvetica_neue_ultra_light_italic" android:fontWeight="200" android:fontStyle="1"/>
+</font-family>
